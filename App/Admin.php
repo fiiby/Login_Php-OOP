@@ -9,7 +9,7 @@
 <body>
     
 <?php 
-class admin extends user{
+class admin extends User{
     // public $uploadProduct="";
 
     public function__construct($uploadProduct){

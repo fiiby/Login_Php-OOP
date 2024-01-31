@@ -22,7 +22,7 @@ class user
     }
 }
 
-$user = new user(1, "admin", "admin@example.com", "adminPassword");
+$user = new User(1, "admin", "admin@example.com", "adminPassword");
 $person->print_user_info();
 
 
