@@ -108,14 +108,14 @@ if (isset($_POST['login'])) {
     include_once 'db-connect.php';
 
     //sql query:
-    $sql = "SELECT * FROM users  WHERE username = '$username' AND password = '$password'";
+    $sql = "SELECT * FROM   WHERE username = '$username' AND password = '$password'";
 
     // execute the query:
     $result = $database_connection->query($sql);
     if ($result->num_rows > 0) {
         echo "login successful";
         $_SESSION['username'] = $username;
-        header('Location: dashboard.php');
+        header('Location: product.php');
     } else {
         echo "invalid credentials";
     }

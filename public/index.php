@@ -6,16 +6,16 @@ spl_autoload_register(function($class){
     require $path;
 });
 
-use App\Admin;
-use App\Customer;
+// use App\Admin;
+// use App\Customer;
 
- $admin = new Admin(1, "john", "john@gmail.com", "123");
+//  $admin = new Admin(1, "john", "john@gmail.com", "123");
 
-$admin->upload_product();
+// $admin->upload_product();
 
-echo "<br>";
+// echo "<br>";
 
-$customer = new Customer(1, "mitchelle", "mitchelle@gmail.com", "123");
-$customer->view_product();
+// $customer = new Customer(1, "mitchelle", "mitchelle@gmail.com", "123");
+// $customer->view_product();
 
 include __DIR__ . "/" . "../views/product.php";
