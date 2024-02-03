@@ -13,11 +13,11 @@
             height: 100vh;
             width: 100%;
             /* background-color: papayawhip; */
-            background-color: lightseagreen;
+            background-color:wheat;
         }
 
         h1 {
-            color: lightseagreen;
+            color: white;
             text-align: center;
         }
 
@@ -29,7 +29,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-            background-color: white;
+            background-color: lightseagreen;
         }
 
         .form-input {
@@ -39,18 +39,18 @@
         .username,
         .password {
             width: 100%;
-           /* align-items: center; */
+            /* align-items: center; */
             padding: 10px;
             margin-top: 5px;
             margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 4px;
             box-sizing: border-box;
-            background-color: lightgrey;
+            background-color:whitesmoke;
         }
 
         .login-btn {
-            background-color: lightseagreen;
+            background-color: whitesmoke;
             color: black;
             border: none;
             padding: 10px 20px;
@@ -59,7 +59,11 @@
         }
 
         .login-btn:hover {
-            background-color: grey;
+            background-color: orangered;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
         }
     </style>
 </head>
@@ -68,8 +72,8 @@
 
     <div class="container">
 
-        <form class="login-form" action="store.php" method="POST">
-            <h1>Log-in</h1>
+        <form class="login-form" action="login.php" method="POST">
+            <h1>Log in</h1>
             <div class="form-input">
                 <input type="text" class="username" name="username" placeholder=" Enter username">
             </div>
@@ -88,9 +92,9 @@
                 <input type="submit" class="login-btn" name="login" value="login">
             </div>
             <div class="form-input">
-                <h4>Don't have an account click,
+                <h3>Don't have an account click,
                     <a href="signup.php">signup</a>
-                </h4>
+                </h3>
             </div>
         </form>
     </div>
@@ -108,7 +112,7 @@ if (isset($_POST['login'])) {
     include_once 'db-connect.php';
 
     //sql query:
-    $sql = "SELECT * FROM   WHERE username = '$username' AND password = '$password'";
+    $sql = "SELECT * FROM  User WHERE username = '$username' AND password = '$password'";
 
     // execute the query:
     $result = $database_connection->query($sql);

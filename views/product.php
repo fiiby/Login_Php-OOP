@@ -13,7 +13,7 @@
         }
 
         header {
-            background-color: #333;
+            background-color: #555;
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -40,14 +40,14 @@
             justify-content: center;
             border: 1px solid #ccc;
             padding: 10px;
-            width: 300px;
+            width: 30px;
             margin-left: auto;
             margin-right: auto;
             margin-top: 60px;
         }
 
         .product-image {
-            width: 100%;
+            width: 20%;
             height: 200px;
             margin-bottom: 10px;
             text-align: center;
@@ -113,6 +113,7 @@
 
         a {
             text-decoration-line: none;
+            color: #fff;
         }
 
         ul {
@@ -145,7 +146,7 @@
                 <div class="product-details">
                     <h2 class="product-title">I-phon10</h2>
                     <h4 class="product-price">40000 /-</h4>
-                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <button class="add-to-cart-btn"><a href="login.php">Add to Cart</a></button>
                 </div>
             </div>
             <div class="product-card">
@@ -156,7 +157,7 @@
                 <div class="product-details">
                     <h2 class="product-title">Headphones</h2>
                     <h4 class="product-price">2000 /-</h4>
-                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <button class="add-to-cart-btn"><a href="login.php">Add to Cart</a></button>
                 </div>
             </div>
             <div class="product-card">
@@ -167,7 +168,7 @@
                 <div class="product-details">
                     <h2 class="product-title">Laptop </h2>
                     <h4 class="product-price">30000 /-</h4>
-                    <button class="add-to-cart-btn"><a href="cart.php">Add to Cart</a></button>
+                    <button class="add-to-cart-btn"><a href="login.php">Add to Cart</a></button>
                 </div>
             </div>
             <div class="product-card">
@@ -178,7 +179,7 @@
                 <div class="product-details">
                     <h2 class="product-title">Digital Camera</h2>
                     <h4 class="product-price">45000 /-</h4>
-                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <button class="add-to-cart-btn"><a href="login.php">Add to Cart</a></button>
                 </div>
             </div>
 
@@ -190,7 +191,7 @@
                 <div class="product-details">
                     <h2 class="product-title">Denim Jacket</h2>
                     <h4 class="product-price">3000 -/</h4>
-                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <button class="add-to-cart-btn"><a href="login.php">Add to Cart</a></button>
                 </div>
             </div>
 
@@ -202,7 +203,7 @@
                 <div class="product-details">
                     <h2 class="product-title">Hat</h2>
                     <h4 class="product-price">500 /-</h4>
-                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <button class="add-to-cart-btn"><a href="login.php">Add to Cart</a></button>
                 </div>
             </div>
 
@@ -214,7 +215,40 @@
                 <div class="product-details">
                     <h2 class="product-title">Water Bottle</h2>
                     <h4 class="product-price">300 /-</h4>
-                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <button class="add-to-cart-btn"><a href="login.php">Add to Cart</a></button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <!-- Add your image here -->
+                    <img src="../images/7.jpeg" alt="Product Image" />
+                </div>
+                <div class="product-details">
+                    <h2 class="product-title">Water Bottle</h2>
+                    <h4 class="product-price">300 /-</h4>
+                    <button class="add-to-cart-btn"><a href="login.php">Add to Cart</a></button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <!-- Add your image here -->
+                    <img src="../images/7.jpeg" alt="Product Image" />
+                </div>
+                <div class="product-details">
+                    <h2 class="product-title">Water Bottle</h2>
+                    <h4 class="product-price">300 /-</h4>
+                    <button class="add-to-cart-btn"><a href="login.php">Add to Cart</a></button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <!-- Add your image here -->
+                    <img src="../images/7.jpeg" alt="Product Image" />
+                </div>
+                <div class="product-details">
+                    <h2 class="product-title">Water Bottle</h2>
+                    <h4 class="product-price">300 /-</h4>
+                    <button class="add-to-cart-btn"><a href="login.php">Add to Cart</a></button>
                 </div>
             </div>
         </div>
